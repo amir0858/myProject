@@ -1,0 +1,12 @@
+.inputBx {
+    display: flex;
+    flex-direction: row;
+}
+
+.textInput {
+    max-width: 85%;
+}
+
+.langInput {
+    max-width: 15%;
+}
