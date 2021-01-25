@@ -1,0 +1,70 @@
+.Continer {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(120deg, #113baf, #2b3a63, #2b3a63, #113baf);
+    overflow: hidden;
+}
+
+.miniContainer {
+    margin-top: 50px;
+    width: 80%;
+}
+
+.doInput {
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    width: 100%;
+    background: #ffffff0c;
+    box-shadow: 0 0 19px #ffffff2f;
+    transition: all .5s;
+}
+
+.doInput:hover {
+    box-shadow: 0 0 29px #ffffff60;
+}
+
+/*  */
+
+.doResults {
+    max-height: 72.3vh;
+    width: 98%;
+    margin: 30px auto;
+    padding: 20px;
+    background: #ffffff0c;
+    box-shadow: 0 0 19px #ffffff2f;
+    overflow-y: auto;
+    scrollbar-width: thin;
+    scrollbar-color: #8a94af8c #17358600;
+}
+
+div.Result {
+    display: flex;
+    flex-direction: row;
+    background: #ffffff1f;
+    box-shadow: 0 0 13px #ffffff80;
+    width: 90%;
+    height: 150px;
+    margin: 20px auto;
+}
+
+div.Result div.doContainer {
+    height: 100%;
+    width: 85%;
+    font-size: 15px;
+    font-weight: 700;
+    padding: 15px;
+    overflow-y: auto;
+    scrollbar-width: thin;
+    scrollbar-color: #17358677 #17358600;
+    color: #ffffffb7;
+}
+
+.doExItems {
+    height: 100%;
+    width: 13%;
+    transform: translateX(35px);
+    background: red;
+}
